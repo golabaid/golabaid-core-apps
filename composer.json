@@ -1,0 +1,45 @@
+{
+    "description": "Provide GoLaba libraries for golaba.id",
+    "name": "golabaid/golabaid-core-apps",
+    "type": "library",
+    "homepage": "https://github.com/golabaid/golabaid-core-apps",
+    "authors": [
+        {
+            "name": "Lucky Mahrus",
+            "email": "lucky@golaba.id",
+            "role": "Owner"
+        },
+        {
+            "name": "Dicky Abdillah",
+            "email": "dicky@golaba.id",
+            "role": "Backend Developer"
+        },
+        {
+            "name": "Rei Alvin",
+            "email": "alvin@golaba.id",
+            "role": "Frontend Developer"
+        },
+        {
+            "name": "Hadi Permana",
+            "email": "hadi@golaba.id",
+            "role": "UI/UX Designer"
+        }
+    ],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/golabaid/golabaid-core-apps"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "ci-apps/config/",
+            "ci-apps/core/",
+            "ci-apps/helpers/",
+            "ci-apps/libraries/",
+            "ci-apps/third_party/MX"
+        ]
+    },
+    "minimum-stability": "dev"
+}
